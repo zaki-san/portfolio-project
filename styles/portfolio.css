@@ -1,6 +1,11 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-gradient: linear-gradient(
+    110.4deg,
+    rgb(247, 112, 15) 6.4%,
+    rgb(248, 50, 88) 100.2%
+  );
+  --branding-color: #f83258;
+  --secondary-color: #fef9f7;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -45,7 +50,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: #422a21;
 }
 
 .hero h2 {
@@ -56,7 +61,7 @@ p {
 }
 
 .btn-branding {
-  background: var(--branding-color);
+  background: var(--branding-gradient);
   border-radius: 4px;
   color: white;
   font-size: 18px;
