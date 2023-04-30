@@ -118,6 +118,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-branding-outline:hover {
+  color: white;
+  background: var(--branding-gradient);
 }
 
 .project-desciption {
